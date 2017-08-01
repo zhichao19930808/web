@@ -3,4 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+<!-- 设置首页 -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet-mapping>
+        <servlet-name>ServletTest01</servlet-name>
+        <url-pattern>/ServleTest01</url-pattern>
+    </servlet-mapping>
+<!-- 配置servlet类 -->
+    <servlet>
+        <servlet-name>ServletTest01</servlet-name>
+        <servlet-class>ServletTest01</servlet-class>
+    </servlet>
 </web-app>
