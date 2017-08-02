@@ -69,4 +69,12 @@
         <servlet-name>ServletCodingTest</servlet-name>
         <url-pattern>/ServletCodingTest</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletSkip</servlet-name>
+        <servlet-class>com.cd.ServletSkip</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSkip</servlet-name>
+        <url-pattern>/ServletSkip</url-pattern>
+    </servlet-mapping>
 </web-app>
