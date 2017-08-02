@@ -45,4 +45,20 @@
         <servlet-name>ServletConfigTest</servlet-name>
         <url-pattern>/ServletConfigTest</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletContextTest1</servlet-name>
+        <servlet-class>com.cd.ServletContextTest1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContextTest1</servlet-name>
+        <url-pattern>/ServletContextTest1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletContextTest2</servlet-name>
+        <servlet-class>com.cd.ServletContextTest2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContextTest2</servlet-name>
+        <url-pattern>/ServletContextTest2</url-pattern>
+    </servlet-mapping>
 </web-app>
