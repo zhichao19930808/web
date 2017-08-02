@@ -6,6 +6,9 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import java.io.IOException;
 
+/**
+ *第二种访问servlet的方式：继承javax.servlet.GenericServlet类
+ */
 public class ServletTest02 extends GenericServlet {
 
     @Override
