@@ -20,13 +20,13 @@ public class ServletCodingTest extends HttpServlet {
         //告诉服务器使用什么编码格式解析文本
         //resp.setCharacterEncoding("UTF-8");
         //告诉浏览器用什么编码格式解析文本
-       // resp.setHeader("content","charset=utf-8");
+       // resp.setHeader("content","text/html;charset=utf-8");
 //  方法2：
-        resp.setContentType("charset = utf-8");
+        resp.setContentType("text/html;charset = utf-8");
         //获取字符输出流
 //测试：
         PrintWriter writer = resp.getWriter();
         //向浏览器输出字符流
-        writer.write("hello");
+        writer.write("汉字");
     }
 }
