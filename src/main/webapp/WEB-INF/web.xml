@@ -33,4 +33,16 @@
         <servlet-name>ServletTest03</servlet-name>
         <url-pattern>/ServleTest03</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletConfigTest</servlet-name>
+        <servlet-class>com.cd.ServletConfigTest</servlet-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConfigTest</servlet-name>
+        <url-pattern>/ServletConfigTest</url-pattern>
+    </servlet-mapping>
 </web-app>
