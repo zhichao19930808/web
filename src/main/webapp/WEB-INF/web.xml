@@ -8,13 +8,21 @@
         <welcome-file>index.jsp</welcome-file>
         <welcome-file>default.jsp</welcome-file>
     </welcome-file-list>
+<!-- 配置servlet类 -->
+    <servlet>
+        <servlet-name>ServletTest01</servlet-name>
+        <servlet-class>com.cd.ServletTest01</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletTest01</servlet-name>
         <url-pattern>/ServleTest01</url-pattern>
     </servlet-mapping>
-<!-- 配置servlet类 -->
     <servlet>
-        <servlet-name>ServletTest01</servlet-name>
-        <servlet-class>ServletTest01</servlet-class>
+        <servlet-name>ServletTest02</servlet-name>
+        <servlet-class>com.cd.ServletTest02</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletTest02</servlet-name>
+        <url-pattern>/ServleTest02</url-pattern>
+    </servlet-mapping>
 </web-app>
