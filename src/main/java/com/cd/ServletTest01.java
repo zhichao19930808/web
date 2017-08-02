@@ -1,6 +1,11 @@
+package com.cd;
+
 import javax.servlet.*;
 import java.io.IOException;
 
+/**
+ * 第一种访问servlet的方式
+ */
 public class ServletTest01 implements Servlet{
     //servlet第一次访问时调用该方法，服务器会调用此方法会创建一个此类的实例
     public ServletTest01() {
