@@ -61,4 +61,12 @@
         <servlet-name>ServletContextTest2</servlet-name>
         <url-pattern>/ServletContextTest2</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletCodingTest</servlet-name>
+        <servlet-class>com.cd.ServletCodingTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCodingTest</servlet-name>
+        <url-pattern>/ServletCodingTest</url-pattern>
+    </servlet-mapping>
 </web-app>
