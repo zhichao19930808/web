@@ -77,4 +77,12 @@
         <servlet-name>ServletSkip</servlet-name>
         <url-pattern>/ServletSkip</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletLogoTest</servlet-name>
+        <servlet-class>com.logo.ServletLogoTest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLogoTest</servlet-name>
+        <url-pattern>/ServletLogoTest</url-pattern>
+    </servlet-mapping>
 </web-app>
